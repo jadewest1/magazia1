@@ -52,7 +52,7 @@
         '{"dasaxeleba":"გაზქურა","fasi":"700" },'+
         '{"dasaxeleba":"ლეპტოპი","fasi":"2000" }]}';
     
-       var obj = JSON.stringify(productData);
+       var obj = JSON.parse(productData);
 
    document.getElementById("stepsecond").innerHTML =  "saxeli" + obj.produqtebi[0].dasaxeleba + " " + obj.produqtebi[0].fasi;
    document.getElementById("stepsecond").innerHTML =  "saxeli" + obj.produqtebi[1].dasaxeleba + " " + obj.produqtebi[1].fasi;
