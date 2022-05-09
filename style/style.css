@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(33, 119, 195);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+       }
+ p {
+    font-size: 2rem;
+ }
+ 
+ button {
+     padding: 7px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ 
+ button.blue {
+     background-color: #3498db;
+ }
+ 
+ button.green {
+     background-color: #2ecc71;
+ }
+ 
+ button.orange {
+    background-color: orangered;
+ }
+ 
+.material-icons-outlined{
+    background-color:rgba(162, 38, 179, 0.959);
+    color: rgb(231, 21, 21);
+}
+
+.four{
+    color: rgb(90, 4, 252);
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Vujahday Script', cursive;
+    font-family: 'Yellowtail', cursive;
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+    width: 180px;
+    height: 170px;
+}

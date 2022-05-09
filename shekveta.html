@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <title>magazia</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <center>
+    <h1>choose number of your product(max is 3)</h1>
+
+    <input id="show">
+    <button onclick="ricxvisShemowmeba()">check</button>
+
+    <p id="stepfirst"> </p>
+
+    <script>
+        function ricxvisShemowmeba(){
+            const message = document.getElementById("stepfirst");
+            message.innerHTML = "";
+            let ricxvi = document.getElementById("show").value;
+
+            try{
+                if (ricxvi == "") throw "type number";
+                if (ricxvi < 0) throw "choose real number";
+                if (ricxvi > 3) throw "choose below 3";
+                if (ricxvi = 3) throw "nice choice";
+            }
+            catch (error) {
+                message.innerHTML = error;
+            }
+
+
+            finally{
+                document.getElementById("show").value ="";
+            }
+
+
+        }
+    </script>
+    
+    <p id="stepsecond"></p>
+
+    <script>
+
+        let productData = '{"produqtebi":[' +
+        '{"dasaxeleba":"მაგიდა","fasi":"1200" },' +
+        '{"dasaxeleba":"ტელევიზორი","fasi":"1500" },' +
+        '{"dasaxeleba":"მაცივარი","fasi":"1100" },'+
+        '{"dasaxeleba":"გაზქურა","fasi":"700" },'+
+        '{"dasaxeleba":"ლეპტოპი","fasi":"2000" }]}';
+    
+       var obj = JSON.stringify(productData);
+
+   document.getElementById("stepsecond").innerHTML =  "saxeli" + obj.produqtebi[0].dasaxeleba + " " + obj.produqtebi[0].fasi;
+   document.getElementById("stepsecond").innerHTML =  "saxeli" + obj.produqtebi[1].dasaxeleba + " " + obj.produqtebi[1].fasi;
+   document.getElementById("stepsecond").innerHTML =  "saxeli" + obj.produqtebi[2].dasaxeleba + " " + obj.produqtebi[2].fasi;
+
+
+
+   
+    </script>
+        <p>
+            <label for = "1">1st product</label><br>
+            <input type="text" name="lname" value="magida-1200 larad">
+            <button type="button" onclick="alert('you just buy table 1200 larad')">ყიდვა</button>
+        </p>
+
+        <p>
+            <label for = "2 ">2nd product</label><br>
+            <input type="text" name="lname" value="tv-1500 larad">
+            <button type="button" onclick="alert('you just buy tv 1500 larad')">ყიდვა</button>
+        </p>
+
+        <p>
+            <label for="3">3rd product</label><br>
+            <input type="text" id="lname" name="lname" value="macivari-1100 larad">
+            <button type="button" onclick="alert('you just buy table 1100 larad')">ყიდვა</button>
+        </p>
+        </form>
+
+        <a href ='log in.html'><span class="material-symbols-outlined">login</span></a>
+        <a href='home page.html'><span class="material-symbols-outlined">home</span></a>
+    </center>
+</body>
+</html>

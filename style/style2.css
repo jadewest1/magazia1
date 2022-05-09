@@ -1,0 +1,124 @@
+body{
+    background-image: url('https://www.rxwallpaper.site/wp-content/uploads/147-purple-hd-wallpapers-background-images-wallpaper-abyss-800x800.jpg');
+}
+center{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Vujahday Script', cursive;
+    font-family: 'Yellowtail', cursive;
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+}
+
+.input{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Vujahday Script', cursive;
+    font-family: 'Yellowtail', cursive;
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+}
+
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6f4bf1ba;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #312dff;  
+        border-radius: 15px ;  
+          
+}  
+center{  
+    text-align: center;  
+    color: #0fcfcf;  
+    padding: 20px;  
+}  
+label{  
+    color: #31ff08;  
+    font-size: 17px;  
+}  
+
+
+.pirveli{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+.meore{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+.mesame{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;    
+  
+}  
+span{  
+    color: rgb(143, 227, 65);  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+} 
+
+.nav {
+    background-color: rgb(170, 236, 170); 
+    position: not-fixed;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    width: 1%;
+    height: 1%;
+}
+
+
+
+.material-icons-outlined{
+    background-color:rgba(162, 38, 179, 0.959);
+    color: rgb(231, 21, 21);
+}
+
+@media screen and (max-width:960px){
+    #container{
+      width:100%;
+    }
+  
+  }
